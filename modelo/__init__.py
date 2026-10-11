@@ -1,0 +1,1 @@
+"""Productos e inventario."""
