@@ -139,7 +139,7 @@ class InterfazSIGRI:
                   "Si el stock actualizado es menor o igual al mínimo, se solicita reposición\n"
                   "hasta alcanzar el máximo.", wraplength=710).pack(anchor="w")
 
-    # Registro y validación de los datos del formulario.
+    # Registro y validación de los datos del formulario chequeado 
     def mostrar_registro(self):
         self._vista("Registrar producto", "Completa todos los campos. Las cantidades son unidades enteras no negativas.")
         formulario = ttk.Frame(self.contenido, style="Card.TFrame", padding=22)
